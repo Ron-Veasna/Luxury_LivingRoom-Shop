@@ -1,0 +1,765 @@
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.container .logo{
+    width: 40%;
+    margin-left: 150px;
+    height: 110px;
+}
+.container .logo img{
+    width: 40%;
+    height: 110px;
+    object-fit: cover;
+}
+.container .search{
+    width: 50%;
+    height: 60px;
+    padding-top: 25px;
+}
+.container .search input{
+    width: 60%;
+    height: 45px;
+    border: 2px solid rgb(73, 73, 73);
+}
+.container .search i{
+    padding: 18px;
+    background-color: rgb(245,127,32);
+    cursor: pointer;
+}
+.container .search i:hover{
+    transform: scale(1.05);
+    background-color: rgb(73, 73, 73);
+    color: white;
+}
+.container1{
+    width: 100%;
+    margin-top: 20px;
+    background-color: rgb(245,127,32);
+}
+.container1 .menu{
+    width: 90%;
+    margin: auto;
+}
+.container1 .menu ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+.container1 .menu ul li a{
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    font-size: 19px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.container1 .menu ul li a:hover{
+    color: white;
+    background-color: rgb(73, 73, 73);
+    transform: scale(1.18);
+}
+.container2{
+    width: 100%;
+    margin-top: 3.2px;
+}
+.container2 .img{
+    width: 100%;
+    height: 650px;
+}
+.container2 .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+}
+.container2 .img .left{
+    position: absolute;
+    top: 55%;
+    left: 30px;
+}
+.container2 .img .left i{
+    background-color: rgb(73, 73, 73);
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+}
+.container2 .img .left i:hover{
+    background-color: rgb(245,127,32);
+}
+.container2 .img .right{
+    position: absolute;
+    top: 55%;
+    right: 30px;
+}
+.container2 .img .right i{
+    background-color: rgb(73, 73, 73);
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+}
+.container2 .img .right i:hover{
+    background-color: rgb(245,127,32);
+}
+.container2 .img .mid{
+    position: absolute;
+    top: 37%;
+    left: 34%;
+    text-align: center;
+}
+.container2 .img .mid h1{
+    color: rgb(245,127,32);
+    font-size: 48px;
+    font-weight: 900;
+}
+.container2 .img .mid h3{
+    width: 30%;
+    height: 30px;
+    padding-top: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: auto;
+    background-color: rgb(245,127,32);
+    color: white;
+    transition: 0.5s;
+}
+.container2 .img .mid h3:hover{
+    transform: scale(1.2);
+    background-color: rgb(245,127,32);
+    color: black;
+}
+.container3{
+    width: 100%;
+    padding: 50px 0px;
+    margin-top: 4px;
+    background-color: rgba(245, 128, 32, 0.295);
+}
+.container3 .box{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+   
+}
+.container3 .box .item{
+    width: 12%;
+    height: 110px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.container3 .box .item .img{
+    width: 100%;
+    height: 80%;
+}
+.container3 .box .item .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.container3 .box .item .text{
+    font-size: 30px;
+    padding-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+.container3 .box .item:hover{
+    transform: scale(1.25);
+}
+.container4{
+    width: 100%;
+}
+.container4 .menubar{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    padding: 10px;
+}
+.container4 .menubar .logo{
+    width: 40%;
+}
+.container4 .menubar .logo h1{
+    font-size: 45px;
+}
+.container4 .menubar .menu{
+    width: 60%;
+}
+.container4 .menubar .menu ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+}
+.container4 .menubar .menu ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 40px 15px;
+    font-size: 30px;
+    color: rgb(73, 73, 73);
+    transition: 0.4s;
+}
+.container4 .menubar .menu ul li a:hover{
+    color: rgb(245,127,32);
+    transform: scale(1.2);
+}
+.container4 .box{
+    width: 70%;
+    padding-bottom: 20px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.container4 .box .item1{
+    width: 65%;
+    height: 300px;
+    cursor: pointer;
+}
+.container4 .box .item1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.4s;
+    box-shadow: 1px 0px 0px 6px rgba(245, 128, 32, 0.329);
+}
+.container4 .box .item1 img:hover{
+    transform: scale(0.93);
+    box-shadow: 1px 0px 0px 6px rgba(245, 128, 32, 0.932);
+}
+.container4 .box .item2{
+    width: 31.55%;
+    height: 300px;
+}
+.container4 .box .item2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.4s;
+    box-shadow: 1px 0px 0px 6px rgba(245, 128, 32, 0.329);
+}
+.container4 .box .item2 img:hover{
+    transform: scale(0.93);
+    box-shadow: 1px 0px 0px 6px rgba(245, 128, 32, 0.932);
+}
+.container5{
+    width: 100%;
+    height: 800px;
+    padding-top: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container5 img{
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+}
+.container5 h2{
+    position: absolute;
+    color: rgb(89, 90, 90);
+    top: 20%;
+    left: 65%;
+}
+.container5 h1{
+    position: absolute;
+    color: white;
+    top: 25%;
+    left: 60%;
+    font-weight: bold;
+    font-size: 70px;
+}
+.container5 h1:hover{
+    color: blue;
+}
+.container5 .box{
+    width: 600px;
+    position: absolute;
+    top: 45%;
+    left: 53%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.container5 .box .item{
+    width: 20%;
+    height: 100px;
+}
+.container5 .box .item h3{
+    font-size: 23px;
+    padding: 20px 10px;
+    line-height: 30px;
+    border: 3px solid rgb(85, 84, 84);
+    background-color: orange;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.container5 .box .item h3:hover{
+    transform: scale(1.2);
+    border: 3px solid orange;
+    background-color: white;
+    color: black;
+}
+.container5 h4{
+    top: 63%;
+    left: 64%;
+    font-size: 18px;
+    padding: 20px 50px;
+    position: absolute;
+    color: white;
+    cursor: pointer;
+    border: 3px solid orange;
+    font-family: 'Courier New', Courier, monospace;
+    transition: 0.4s;
+    background-color: rgb(89, 90, 90);
+}
+.container5 h4:hover{
+    transform: scale(1.2);
+    color: black;
+    background-color: white;
+}
+.container6{
+    width: 100%;
+}
+.container6 .box{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    padding-top: 30px;
+}
+.container6 .box .tt{
+    width: 50%;
+}
+.container6 .box .tt h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.container6 .box .change{
+    width: 50%;
+    display: flex;
+    margin-top: 13px;
+    justify-content: right;
+    color: black;
+}
+.container6 .box .change h1 i:hover{
+    color: orange;
+    cursor: pointer;
+}
+.container6 .item{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.container6 .item .obj{
+    width: 23%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+    cursor: pointer;
+    transition: 0.4s;
+    border: 2px solid black;
+}
+.container6 .item .obj:hover{
+    transform: scale(1.1);
+    border: 2px solid orange;
+}
+.container6 .item .obj:hover .text h1 span{
+    color: red;
+}
+.container6 .item .obj .img{
+    width: 100%;
+    height: 70%;
+}
+.container6 .item .obj .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container6 .item .obj .text{
+    width: 100%;
+    height: 30%;
+    font-size: 12px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+.container6 .item .obj .text h1 span{
+    color: rgb(1, 184, 1);
+}
+.container7{
+    width: 100%;
+    height: 450px;
+    margin-top: 30px;
+    position: relative;
+}
+.container7 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    box-shadow: 1px 1px 8px black;
+}
+.container7 span{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.404);
+}
+.container7 h2{
+    position: absolute;
+    font-size: 35px;
+    top: 25%;
+    left: 46%;
+    color: rgb(170, 169, 169);
+}
+.container7 h1{
+    position: absolute;
+    font-size: 55px;
+    top: 48%;
+    left: 35%;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 2px 2px 18px black;
+}
+.container8{
+    width: 100%;
+}
+.container8 .box{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    padding-top: 30px;
+}
+.container8 .box .tt{
+    width: 50%;
+}
+.container8 .box .tt h1{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container8 .box .change{
+    width: 50%;
+    display: flex;
+    margin-top: 13px;
+    justify-content: right;
+    color: black;
+}
+.container8 .box .change h1 i:hover{
+    color: orange;
+    cursor: pointer;
+}
+.container8 .item{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.container8 .item .box1{
+    width: 49%;
+    height: 700px;
+}
+.container8 .item .box1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.4s;
+    box-shadow: 1px 0px 0px 6px rgba(245, 128, 32, 0.329);
+}
+.container8 .item .box1 img:hover{
+    transform: scale(0.97);
+box-shadow: 1px 0px 0px 6px rgba(245, 128, 32, 0.932);
+}
+.container8 .item .boxe{
+    width: 49%;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;justify-content: space-between;
+}
+.container8 .item .boxe .box2{
+    width: 100%;
+    height: 335px;
+}
+.container8 .item .boxe .box2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.4s;
+    cursor: pointer;
+    box-shadow: 1px 0px 0px 6px rgba(245, 128, 32, 0.329);
+}
+.container8 .item .boxe .box2 img:hover{
+    transform: scale(0.97);
+box-shadow: 1px 0px 0px 6px rgba(245, 128, 32, 0.932);
+}
+.container8 .item .boxe .box3{
+    width: 48%;
+    padding-top: 26px;
+    height: 336px;
+}
+.container8 .item .boxe .box3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.4s;
+    cursor: pointer;
+    box-shadow: 1px 0px 0px 6px rgba(245, 128, 32, 0.329);
+}
+.container8 .item .boxe .box3 img:hover{
+    transform: scale(0.95);
+box-shadow: 1px 0px 0px 6px rgba(245, 128, 32, 0.932);
+}
+.container8 .item .boxe .box4{
+    width: 48%;
+    padding-top: 26px;
+    height: 336px;
+}
+.container8 .item .boxe .box4 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.4s;
+    box-shadow: 1px 0px 0px 6px rgba(245, 128, 32, 0.329);
+}
+.container8 .item .boxe .box4 img:hover{
+    transform: scale(0.95);
+box-shadow: 1px 0px 0px 6px rgba(245, 128, 32, 0.932);
+}
+.container9{
+    width: 100%;
+    margin-top: 60px;
+}
+.container9 .logo{
+    width: 70%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+.container9 .logo h1{
+    font-size: 35px;
+    font-family: monospace;
+}
+.container9 .box{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.container9 .box .item{
+    width: 30%;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    transition: 0.4s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 10px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.container9 .box .item:hover{
+    transform: scale(1.1);
+}
+.container9 .box .item .img{
+    width: 100%;
+    height: 60%;
+}
+.container9 .box .item .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.container9 .box .item .text{
+    width: 100%;
+    height: 40%;
+}
+.container9 .box .item .text .mm{
+    width: 100%;
+    height: 10%;
+    text-align: center;
+}
+.container9 .box .item .text .mm h1{
+    font-size: 24px;
+}
+.container9 .box .item .text .tt{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.container9 .box .item .text .tt .ff{
+    width: 49%;
+    height: 100%;
+    text-align: left;
+}
+.container9 .box .item .text .tt .ff h2{
+    font-size: 19px;
+    padding-left: 6px;
+    padding-top: 11px;
+    margin: 0;
+    color: rgb(95, 95, 95);
+}
+.container9 .box .item .text .tt .ll{
+    width: 49%;
+    height: 100%;
+    text-align: right;
+}
+.container9 .box .item .text .tt .ll h2{
+    font-size: 20px;
+    margin: 0;
+    color:  rgb(95, 95, 95);
+    padding-top: 11px;
+    padding-right: 6px;
+}
+.container9 .box .item .text .all{
+    width: 100%;
+    height: 45%;
+    padding: 10px;
+}
+.container9 .box .item .text .oss{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    color: orange;
+}
+.containerA{
+    width: 100%;
+    margin-top: 150px;
+}
+.containerA .box{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.containerA .box .img{
+    width: 19.5%;
+    height: 250px;
+}
+.containerA .box .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.4s;
+}
+.containerA .box .img img:hover{
+    transform: scale(1.1);
+}
+.footer{
+    width: 100%;
+    margin-top: 70px;
+    background-color: rgba(184, 184, 184, 0.726);
+}
+.footer .box{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .box .item1{
+    width: 25%;
+    height: 400px;
+    padding-right: 20px;
+}
+.footer .box .item1 .logo{
+    width: 100%;
+    height: 30%;
+}
+.footer .box .item1 .logo img{
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.4s;
+}
+.footer .box .item1 .logo img:hover{
+    transform: scale(1.1);
+
+}
+.footer .box .item2{
+    width: 24%;
+    height: 250px;
+}
+.footer .box .item2 h1{
+    font-size: 40px;
+    color: orangered;
+    padding-top: 15px;
+    transition: 0.4s;
+}
+.footer .box .item2 h1:hover{
+    transform: scale(1.1);
+}
+.footer .box .item2 p{
+    padding-top: 20px;
+    font-size: 20px;
+}
+.footer .box .item3{
+    width: 26%;
+    height: 250px;
+}
+.footer .box .item3 h1{
+    font-size: 40px;
+    color: rgb(73, 73, 73);
+    padding-top: 15px;
+    transition: 0.4s;
+}
+.footer .box .item3 h1:hover{
+    transform: scale(1.1);
+}
+.footer .box .item3 .sub{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+.footer .box .item3 .sub input{
+    padding: 10px 40px;
+    background-color: orange;
+    color: black;
+    border: 3px solid dimgray;
+    transition: 0.4s;
+}
+.footer .box .item3 .sub input:hover{
+    transform: scale(1.2);
+    background-color: white;
+    color: black;
+    border: 3px solid orange;
+}
+.footer .box .item3 .icon{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+.footer .box .item3 .icon a{
+    font-size: 30px;
+    padding: 5px 10px;
+    color: orangered;
+}
+.footer .box .item3 .icon a i{
+    transition: 0.4s;
+}
+.footer .box .item3 .icon a i:hover{
+    color: blue;
+    
+}
+.footer .box .item3 .logo{
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    padding-top: 10px;
+}
+.footer .box .item3 .logo .img{
+    width: 33%;
+    height: 50px;
+}
+.footer .box .item3 .logo .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+.footer .box .item3 .logo .img img:hover{
+    transform: scale(1.2);
+}
